@@ -1,4 +1,18 @@
-# Challenge for Software Engineer - Big Data 
+# Solution for Software Engineer - Big Data
+This project is intended to be the minimum viable solution to complete the _Challenge for Software Engineer - Big Data_ as
+described below. It is written in Ruby, does not handle authentication or authorization, and is not aesthetically pleasing.
+
+## Usage Instructions
+1. Due to the nature of the project, a functional Ruby installation capable of running Rails 4.1.1 is assumed to be present (version 2.1.1 is recommended).
+1. Clone the repository.
+1. Run `bundle install` from the root directory of the project.
+1. Run `bundle exec rails s` from the root directory of the project.
+1. Open the project in your web browser and follow the instructions on the page.
+
+---
+
+
+# Challenge for Software Engineer - Big Data
 To better assess a candidates development skills, we would like to provide the following challenge.  You have as much time as you'd like (though we ask that you not spend more than a few hours).
 
 There are three jobs that both use this challenge:
