@@ -1,0 +1,10 @@
+<%= form_for purchase_import, url: new_purchase_import_path do |form| %>
+
+  <%= form.label :data_to_import %>
+  <%= form.file_field :data_to_import, required: 'required' %>
+
+  <br/><br/>
+
+  <%= form.submit %>
+
+<% end %>
