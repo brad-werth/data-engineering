@@ -7,8 +7,12 @@ class PurchaseImport < ActiveRecord::Base
   before_save :import_data
 
 
-  has_many :purchase_import_purchases
-  has_many :purchases, through: :purchase_import_purchases
+  has_many :purchase_import_purchases,
+           inverse_of: :purchase_import
+
+  has_many :purchases,
+           through: :purchase_import_purchases,
+           inverse_of: :purchase_imports
 
 
   def total_price

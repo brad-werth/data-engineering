@@ -1,7 +1,8 @@
 class Address < ActiveRecord::Base
 
 
-  has_many :merchants
+  has_many :merchants,
+           inverse_of: :address
 
 
 end
